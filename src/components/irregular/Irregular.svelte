@@ -14,9 +14,8 @@
     const propertyValues = Object.values(myData[randomNumber]);
 	const cz = myData[randomNumber].cz;
     propertyValues.shift();
+	const reverseArray = propertyValues.reverse();
 	
-	const propertyValue:string[] = ["item"];
-	const props:string = "props";
 
     const styles = {
 		section:
@@ -27,7 +26,7 @@
 		stars__div: 'flex items-center justify-center py-3 border-b border-gray-300 text-yellow-500',
 		btn_div: 'border-t border-gray-300 text-gray-600',
 		h5: 'text-xl dark:bg-black font-medium mb-2 border-b border-gray-300',
-		ul: 'flex flex-col items-center'
+		ul: 'flex flex-col items-center relative h-[100px]'
 	};
 </script>
 
@@ -52,8 +51,9 @@
 	
 			<ul class={styles.ul} >
 
-				{#each propertyValues as item}
-					<Input props={props} />
+				{#each reverseArray as props}
+			
+					<Input props={props}  />
 				{/each}
 			</ul>
 
