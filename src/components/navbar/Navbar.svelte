@@ -11,8 +11,6 @@
 		nav__ul: 'hidden flex flex-col border-solid border-t-4 border-sky-400 navDetails'
 	};
 
-console.log(OxfordB1);
-
 
 </script>
 
@@ -29,7 +27,7 @@ console.log(OxfordB1);
 				<summary class="uppercase logo">
 					<strong class="hover:text-sky-700">English</strong>
 				</summary>
-				<div class={styles.nav__ul}>
+				<div class="flex flex-col border-solid border-t-4 border-sky-400 navDetails">
 					<a href="/english/irregular-verbs">{`Irregular Verbs (${IrregularVerbs.length})`}</a>
 					<a href="/english/search-irregular">{`Irregular List (${IrregularVerbs.length})`}</a>
 					<a href="/english/oxford-B1">{`Oxford B1 (${OxfordB1.length})`}</a>
