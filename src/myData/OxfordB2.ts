@@ -1,4 +1,9 @@
-export const OxfordB2 = [
+export const OxfordB2: {
+wordTranslated: string;
+sentenceTranslated?: string;
+czWord: string;
+czSentence?: string;
+}[] = [
   {
     wordTranslated: "	abandon  v.	",
     sentenceTranslated: "	 her natural mother had abandoned her at an early age	",

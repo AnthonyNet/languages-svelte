@@ -1,5 +1,5 @@
 
- export const IrregularVerbs = [
+ export  const IrregularVerbs = [
     {  
     cz: "vzniknout",  
     base: "arise", 		

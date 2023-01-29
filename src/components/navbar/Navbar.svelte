@@ -1,6 +1,6 @@
 <script>
 	import NavbarMobile from './Navbar_mobile.svelte';
-  import {IrregularVerbs, OxfordB1, OxfordB2, OxfordC1, LukesPhrasal, VerbenData, Goethe } from '../../myData/index.js';
+  import {IrregularVerbs, OxfordB1, OxfordB2, OxfordC1, LukesPhrasal, VerbenData, Goethe } from '../../myData/';
 
 
 	const styles = {

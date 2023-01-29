@@ -1,4 +1,8 @@
-export const OxfordB1 = [
+export const OxfordB1: {
+czWord: string;
+wordTranslated: string;
+sentenceTranslated?: string;
+}[] = [
   {
     czWord: "	minus pět stupňů 	",
     wordTranslated: "	minus five degrees, five degrees below zero	",
